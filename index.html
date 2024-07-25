@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Apply Online To secure Your Seat in AN Institute</h1>
+<h2>Personal Information</h2>
+<form action="./Step2.html">
+ <label >Enter Name:</label> <input required placeholder=" Name" type="text"><br><br>
+ <label >Enter Contact:</label><input required  placeholder="Contact number" type="number"><br><br>
+ <label >Enter Password:</label><input  required maxlength="8" placeholder=" Password" type="password"><br><br>
+ <label >Enter Email:</label><input required  placeholder="Email" type="email"><br><br>
+ <label>Enter Date of birth:</label><input required type="date"><br><br>
+ </label><textarea cols="30" rows="10" placeholder="Feedback"></textarea>
+<br><br>
+<p>Select Gender</p>
+<input  type="radio" name="Gender" id="Male"> <label for="Male">Male</label><br><br>
+<input required checked type="radio" name="Gender" id="Female"> <label for="Female">Female</label><br><br>
+<input required type="radio"name="Gender" id="Others"> <label for="Others">Others</label><br><br>
+<p>Select Your Choice</p>
+<input   type="checkbox" name="" id=""><label for="">Web</label><br><br>
+<input  type="checkbox" name="" id=""><label for="">Graphic</label><br><br>
+<input  type="checkbox" name="" id=""><label for="">Animation</label><br><br>
+<input type="checkbox" name="" id=""><label for="">Video Edit</label><br><br>
+<p>Select Your City</p>
+<select>
+    <option selected disabled>Choose City</option>
+<option >Karachi</option>
+<option>Lahore</option>
+<option>Islamabad</option>
+<option>Faislamabad</option>
+<option>Quetta</option>
+</select>
+
+<br><br>
+<p>Give your passport size picture</p>
+<input required type="file">
+<br><br>
+<button type="submit" >Next</button>
+
+<button type="reset" >Reset</button>
+
+</form>
+</body>
+</html>
